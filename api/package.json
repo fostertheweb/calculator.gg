@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "Get data from JSON files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "develop": "nodemon index.js"
+  },
+  "author": "fostertheweb",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.12.0"
+  },
+  "devDependencies": {
+    "fastify-cli": "^2.7.0",
+    "nodemon": "^2.0.7"
+  }
+}
